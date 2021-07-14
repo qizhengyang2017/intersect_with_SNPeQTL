@@ -1,0 +1,24 @@
+### The header of permute file
+
+1. the id of phenotype (gene Id)
+2. the number of eVariance in 1M region of eGene
+3. the shape1 parameter of the Beta distribution
+4. the shape2 parameter of the Beta distribution
+5. true_df
+6. pvalue_true_df
+7. ID of the best variant found for this molecular phenotypes (i.e. with the smallest p-value)
+8. Distance between the molecular phenotype - variant pair (real position= Distance + TSS +1 )
+9. ma_samples
+10. ma_count
+11. maf
+12. ref_factor
+13. pval_nominal
+14. slope
+15. slope_se
+16. A first permutation p-value directly obtained from the permutations with the direct method
+17. A second permutation p-value obtained via beta approximation.
+18. FDR of  p-value 
+19. the R2 of lm
+20. the adjust.R2 of lm
+21. the p-value of linear regression
+22. pval_nominal_threshold
